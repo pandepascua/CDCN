@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="js/user_token.js"></script>
+
+        <link rel="stylesheet" href="estilos.css">
+
+
+        <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/>
+        <title>Login usuario CDCN</title>
+</head>
+<body >
+
+
+
+    <center>
+  <form  action="checklogin.php" method="post">
+    
+
+    <div class="imgcontainer">
+      <img src="images/logocor.png"  width="100px" height="100px"  alt="Avatar" class="avatar">
+    </div>
+    <p></p>
+    <div class="container">
+      <label for="uname"><b>Usuario</b></label>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input id="id_user" type="text" placeholder="Ingresar Usuario" name="username" required>
+      <input type="hidden" id="token_nombre" placeholder="Ingresar n" name="nombre" required>
+      <input type="hidden" id="token_apellido" placeholder="Ingresar a" name="apellido" required>
+        <p></p>
+      <label for="psw"><b>Contraseña</b></label>
+      <input type="password" placeholder="Ingresa tu Contraseña" name="password" required>
+      <p></p>
+        
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <button type="submit" class="btn btn-success">Entrar</button>
+    <p></p>
+      <label>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <input type="checkbox" checked="checked" name="remember"> Recordarme
+      </label>
+    </div>
+      
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <p></p>
+     <!--   <span class="psw">Olvidé <a href="#">contraseña</a></span>    -->
+    </div>
+
+  </form>
+</center>
+</body>
+</html>
