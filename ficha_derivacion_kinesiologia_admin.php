@@ -345,7 +345,7 @@ include('conecta.php');
             &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
             &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp
             &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  
-            <button type="submit" form="form_ficha_der" class="btn btn-success">Envio</button>
+            <button type="submit" form="form_ficha_der" class="btn btn-success">Guardar Datos</button>
 
         </center>
 </body>
